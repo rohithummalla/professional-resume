@@ -1,0 +1,213 @@
+
+\documentclass[10pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[
+    top=0.55in,
+    bottom=0.55in,
+    left=0.65in,
+    right=0.65in
+]{geometry}
+
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+
+% ---------- Formatting ----------
+\pagestyle{empty}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\definecolor{linkcolor}{RGB}{0,70,140}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=linkcolor,
+    linkcolor=linkcolor
+}
+
+\titleformat{\section}
+    {\large\bfseries}
+    {}
+    {0pt}
+    {}
+    [\titlerule]
+
+\titlespacing*{\section}
+    {0pt}{8pt}{4pt}
+
+\setlist[itemize]{
+    leftmargin=1.2em,
+    itemsep=1pt,
+    topsep=1pt,
+    parsep=0pt
+}
+
+\renewcommand{\labelitemi}{\textbullet}
+
+\newcommand{\resumeSubheading}[4]{
+    \textbf{#1} \hfill #2\\
+    \textit{#3} \hfill \textit{#4}\\[-2pt]
+}
+
+\newcommand{\projectHeading}[2]{
+    \textbf{#1} \hfill \textit{#2}\\[-2pt]
+}
+
+% ---------- Document ----------
+\begin{document}
+
+
+% ---------- Header ----------
+\begin{center}
+    {\LARGE \textbf{ROHITH UMMALLA}}\\[3pt]
+    \definecolor{lightblue}{RGB}{70,130,220}
+
+\faPhone\ \href{tel:+916304462338}
+{\textcolor{lightblue}{+91 6304462338}}
+\quad
+    \faEnvelope\ \href{mailto:rohithummalla@gmail.com}{rohithummalla@gmail.com}
+     \quad
+    \faLinkedin\ \href{https://www.linkedin.com/in/rohithummalla}{LinkedIn}
+     \quad
+   \faGithub\ \href{https://github.com/rohithummalla}{GitHub}
+\end{center}
+
+
+
+% ---------- Objective ----------
+\section*{ Carrer Objective}
+
+Data Analyst Fresher skilled in converting raw datasets into actionable
+insights. Proficient in Python, SQL, Excel, and Power BI with hands-on
+experience building predictive sentiment frameworks and interactive
+performance dashboards. Seeking to leverage analytical methodologies
+and core statistical foundations to support data-driven decision-making.
+
+% ---------- Education ----------
+\section*{Education}
+
+    \textbf{Bachelor of Technology (B.Tech)}
+\hfill \textit{2027}
+
+DRK College Engineering And Technology, Hyderabad, India
+
+\textbf{CGPA:} 7.0/10
+
+\textbf{Telangana State Board of Intermediate Education(TSBIE)}
+\hfill \textit{2023}
+
+Narayan Junior College
+
+\textbf{GPA:} 9.01/10
+
+\textbf{Secondary School Certificate (SSC)}
+\hfill \textit{2021}
+
+Sarvodaya E Techno School
+
+\textbf{GPA:} 7.3/10
+
+\vspace{0.2cm}
+
+
+% ---------- Skills ----------
+\section*{Skills}
+
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}p{0.25\textwidth} X@{}}
+
+Programming Languages &
+Python, SQL \\
+
+Data Analysis\& Libraries &
+Excel,Pandas, NumPy \\
+
+Data Visualization &
+Power BI, Matplotlib \\
+
+Databases &
+MySQL, PostgreSQL \\
+
+Core Concepts &
+Data Cleaning, Exploratory Data Analysis (EDA),
+Statistical Analysis \\
+
+Tools &
+Git, GitHub \\
+
+\end{tabularx}
+
+% ---------- Projects ----------
+\section*{Projects}
+
+\projectHeading
+    {Sentiment Analysis on Amazon Reviews}
+    {Python, NLP, Machine Learning}
+
+\begin{itemize}
+    \item Developed a sentiment analysis system to classify Amazon
+    customer reviews into positive, negative, and neutral categories.
+
+    \item Performed text preprocessing, including cleaning,
+    tokenization, and removal of unwanted punctuation or characters.
+
+    \item Applied TF-IDF vectorization for feature extraction and
+    engineered a Support Vector Machine (SVM) classifier.
+
+    \item Implemented model evaluation frameworks and structured
+    a real-time prediction function to analyze incoming custom reviews.
+\end{itemize}
+
+\vspace{4pt}
+
+\projectHeading
+    {Employee Performance Analysis Dashboard}
+    {SQL, Excel, Power BI}
+
+\begin{itemize}
+    \item Analyzed operational corporate datasets to identify
+    department-level trends in performance ratings, compensation
+    structure, and worker job satisfaction.
+
+    \item Cleaned, filtered, and transformed complex raw HR datasets
+    using Microsoft Excel and Power Query to prepare analytics-ready
+    structures.
+
+    \item Developed custom SQL queries employing window functions,
+    groupings, and multi-field aggregations to establish baseline
+    workforce performance metrics.
+
+    \item Designed and deployed an interactive Power BI dashboard
+    featuring dynamic KPIs, matrix cross-charts, and timeline slicers.
+\end{itemize}
+
+% ---------- Extracurricular Activities ----------
+  \section{Extracurricular Activities}
+\begin{itemize}
+    \item Participated in technical events and college activities, 
+    demonstrating adaptability and collaboration in diverse team environments.
+
+
+
+    \item Participated in technical discussions and knowledge-sharing sessions 
+    to improve communication and presentation skills.
+
+
+    \item Actively explored data analytics concepts, like SQL, 
+    data cleaning, and data visualization through self-directed learning.
+
+    \item Demonstrated time management and accountability while balancing 
+         academic responsibilities with technical skill development.
+
+
+\end{itemize}
+% ---------- End ----------
+\end{document}
+
